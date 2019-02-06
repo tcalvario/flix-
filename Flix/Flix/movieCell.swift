@@ -7,9 +7,15 @@
 //
 
 import UIKit
+import AlamofireImage
 
 class movieCell: UITableViewCell {
 
+
+    @IBOutlet weak var movieImages: UIImageView!
+    @IBOutlet weak var movieSynopsis: UILabel!
+    @IBOutlet weak var movieTitle: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
