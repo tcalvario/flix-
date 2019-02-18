@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A5A8DC1A124399FA2AD0886E /* Pods_Flix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9022A8890A02C243DD919DF /* Pods_Flix.framework */; };
+		ABE7FEB5221A3EB90052F4CC /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE7FEB4221A3EB90052F4CC /* MovieDetailViewController.swift */; };
+		ABE7FEB7221A59A60052F4CC /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE7FEB6221A59A60052F4CC /* MovieGridViewController.swift */; };
+		ABE7FEBD221A70330052F4CC /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE7FEBC221A70330052F4CC /* MovieGridCell.swift */; };
 		ABEEE31D220B579800F16CE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEEE31C220B579800F16CE7 /* AppDelegate.swift */; };
 		ABEEE322220B579800F16CE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABEEE320220B579800F16CE7 /* Main.storyboard */; };
 		ABEEE325220B579800F16CE7 /* Flix.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABEEE323220B579800F16CE7 /* Flix.xcdatamodeld */; };
@@ -46,6 +49,9 @@
 		8B29B1E72563B175D3D7891C /* Pods-Flix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flix.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flix/Pods-Flix.release.xcconfig"; sourceTree = "<group>"; };
 		A0184873D20058FDDDB1C220 /* Pods-FlixTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlixTests/Pods-FlixTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A9022A8890A02C243DD919DF /* Pods_Flix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE7FEB4221A3EB90052F4CC /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		ABE7FEB6221A59A60052F4CC /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		ABE7FEBC221A70330052F4CC /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		ABEEE319220B579800F16CE7 /* Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABEEE31C220B579800F16CE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABEEE321220B579800F16CE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -149,6 +155,9 @@
 				ABEEE323220B579800F16CE7 /* Flix.xcdatamodeld */,
 				ABEEE34F220B5B5800F16CE7 /* PhotosViewController.swift */,
 				ABEEE351220B630800F16CE7 /* movieCell.swift */,
+				ABE7FEB4221A3EB90052F4CC /* MovieDetailViewController.swift */,
+				ABE7FEB6221A59A60052F4CC /* MovieGridViewController.swift */,
+				ABE7FEBC221A70330052F4CC /* MovieGridCell.swift */,
 			);
 			path = Flix;
 			sourceTree = "<group>";
@@ -400,9 +409,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABEEE350220B5B5800F16CE7 /* PhotosViewController.swift in Sources */,
+				ABE7FEB5221A3EB90052F4CC /* MovieDetailViewController.swift in Sources */,
 				ABEEE325220B579800F16CE7 /* Flix.xcdatamodeld in Sources */,
 				ABEEE352220B630800F16CE7 /* movieCell.swift in Sources */,
 				ABEEE31D220B579800F16CE7 /* AppDelegate.swift in Sources */,
+				ABE7FEB7221A59A60052F4CC /* MovieGridViewController.swift in Sources */,
+				ABE7FEBD221A70330052F4CC /* MovieGridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

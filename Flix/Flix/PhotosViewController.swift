@@ -17,6 +17,7 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
     
     
     var movies: [[String: Any]] = []
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -74,6 +75,26 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
         
         return cell
     }
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
     
+        //find the selected movie
+        
+        let cell = sender as! UITableViewCell
+        let indexPath = movieTable.indexPath(for:
+            cell)!
+        
+        let movie = movies[indexPath.row]
+        
+        //pass the eelected movie to the details view controller
+        
+        let detailsViewController = segue.destination as! MovieDetailViewController
+        
+        detailsViewController.movie = movie
+        movieTable.deselectRow(at: indexPath, animated: true)
+        
+        print("loading up screen details")
+        
+    }
     
 }
