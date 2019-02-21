@@ -21,6 +21,9 @@
 
 <img src="http://g.recordit.co/AA43rX9h7z.gif" width=250><br>
 
+<img src="http://g.recordit.co/tkHvPX1ZUf.gif" width=250><br>
+
+
 ### Notes
 // done with 7+ screen
 
