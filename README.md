@@ -22,7 +22,7 @@
 <img src="http://g.recordit.co/AA43rX9h7z.gif" width=250><br>
 
 ### Notes
-//
+// done with 7+ screen
 
 
 ## Flix Part 2
@@ -38,9 +38,10 @@
 - [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
 ### App Walkthough GIF
-https://i.imgur.com/ywjqZpL.gifv
+<img src="http://g.recordit.co/AA43rX9h7z.gif" width=250><br>
 
 <img src="YOUR_GIF_URL_HERE" width=250><br>
 
 ### Notes
+done with 7+ screen
 I has issues with the posterView until i realized that I removed the link by accident 
