@@ -26,6 +26,7 @@
 
 ### Notes
 // done with 7+ screen
+// ran on my actual phone 
 
 
 ## Flix Part 2
@@ -43,7 +44,6 @@
 ### App Walkthough GIF
 <img src="http://g.recordit.co/AA43rX9h7z.gif" width=250><br>
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
 
 ### Notes
 done with 7+ screen
